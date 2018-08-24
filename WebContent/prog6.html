@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>BOOK TAKEN DETAILS PAGE</title>
+<style type="text/css">
+body{
+background-image:url("081028_library_books.jpg");
+background-size: 100%  1200px;
+padding-top:130px;
+}
+#nav
+{
+color:yellow;
+padding-top:0px;
+padding-left:15px;
+font-size:26px;
+background:black;
+width:1200px;
+height:650px;
+margin:auto;
+border-radius:20px;
+opacity:.7;
+}
+#nav input
+{
+margin-top:20px;
+width:120px;
+height:45px;
+font-size:20px;
+border-radius:10px;
+}
+#nav input[type="submit"]
+{
+margin-top:0.5px;
+width: 175px;
+border-radius:10px;
+margin-left:570px;
+height:55px;
+background:blue;
+color:white;
+font-weight:bold;
+}
+#nav input[type="submit"]:hover
+{
+background:white;
+color:blue;
+}
+</style>
+</head>
+<body>
+<form  method="get" action="admin2">
+<div id="nav">
+<pre>
+ENTER THE TABLE NAME:<input type="text" name="t">
+ENTER [1.INSERT  2.VIEW 3.DELETE ]<input type="text" name="t1">
+
+                           1. INSERT
+   BOOK_NAME<input type="text" name="t2">   AUTHOR_NAME<input type="text" name="t3">     BOOK_ACC_NO<input type="text" name="t4">  
+STUDENT_NAME<input type="text" name="t5">    REG_NUMBER<input type="text" name="t6">NO_OF_TIME_EXTEND<input type="text" name="t9">   
+                           2.VIEW
+ENTER THE REGISTER NUMBER/ENTER THE 999 TO VIEW ALL<input type="text" name="t10">
+                           3.DELETE
+REG_NUMBER <input type="text" name="t11">   BOOK_ACC_NO<input type="text" name="t12">
+                          </pre>
+<input type="submit" name="submit" value="ENTER">
+</div>
+</form>
+</body>
+</html> 

@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>BOOKS DETAILS PAGE</title>
+<style type="text/css">
+body{
+background-image:url("images (2).jpeg");
+background-size: 100%  1200px;
+padding-top:120px;
+}
+#nav
+{
+color:yellow;
+padding-top:0px;
+padding-left:15px;
+font-size:26px;
+background:black;
+width:1300px;
+height:755px;
+margin:auto;
+border-radius:20px;
+opacity:.7;
+}
+#nav input
+{
+margin-top:18px;
+width:100px;
+height:45px;
+font-size:20px;
+border-radius:10px;
+}
+#nav input[type="submit"]
+{
+margin-top:0.2px;
+width: 150px;
+border-radius:10px;
+margin-left:570px;
+height:50px;
+background:blue;
+color:white;
+font-weight:bold;
+}
+#nav input[type="submit"]:hover
+{
+background:white;
+color:blue;
+}
+</style>
+</head>
+<body>
+<form  method="get" action="admin">
+<div id="nav">
+<pre>
+ENTER THE TABLE NAME:<input type="text" name="t">
+ENTER [1.INSERT 2.UPDATE 3.VIEW 4.DELETE]<input type="text" name="t1">
+
+                           1. INSERT
+BOOKNAME<input type="text" name="t2">       AUTHOR<input type="text" name="t3">  PUBLISHER<input type="text" name="t4">EDITION<input type="text" name="t5">BOOK_ACC_NO<input type="text" name="t6">
+    ISBN<input type="text" name="t7">TOTAL_BOOK_NO<input type="text" name="t8">RACK_NUMBER<input type="text" name="t9">  PRICE<input type="text" name="t10">
+    
+                          2. UPDATE 
+BOOK_ACC_NO<input type="text" name="t11">RACK_NUMBER<input type="text" name="t12">
+
+                          3.VIEW
+ENTER THE BOOK_ACC_NO/ENTER THE 999 TO VIEW ALL<input type="text" name="t13">
+
+                          4.DELETE
+BOOK_ACC_NO<input type="text" name="t14"></pre>
+<input type="submit" name="submit" value="ENTER">
+</div>
+</form>
+</body>
+</html> 
